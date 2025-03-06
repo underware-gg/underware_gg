@@ -19,20 +19,23 @@ export default function IndexPage() {
         {/* <div className='Spacer10' /> */}
 
         <h5>
-          [ <a href='https://lootunder.world'>Loot Underworld</a> ]
+          [ <a href='https://pistols.underware.gg'>Pistols at Dawn</a> ]
         </h5>
         <h5>
-          [ <a href='https://pistols.lootunder.world'>Pistols at 10 Blocks</a> ]
+          [ <a href='https://lootunder.world'>Loot Underworld</a> ]
         </h5>
 
         {/* <hr /> */}
         <div className='Spacer10' />
 
         <h5>
-          [ <a href='https://x.com/LootUnderworld'>@LootUnderworld</a> ]
+          [ <a href='https://x.com/underware_gg'>@underware_gg</a> ]
         </h5>
         <h5>
-          [ <a href='https://x.com/underware_gg'>@underware_gg</a> ]
+          [ <a href='https://x.com/pistols_gg'>@pistols_gg</a> ]
+        </h5>
+        <h5>
+          [ <a href='https://x.com/LootUnderworld'>@LootUnderworld</a> ]
         </h5>
 
         <div style={{ height: '5vh' }}>&nbsp;</div>
