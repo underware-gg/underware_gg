@@ -1,11 +1,10 @@
+// Global styles
 import '../styles/fonts.scss'
 import '../styles/styles.scss'
+
 import React from 'react'
+import type { AppProps } from 'next/app'
 
-function _app({ Component, pageProps }) {
-  return (
-    <Component {...pageProps} />
-  )
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
 }
-
-export default _app
