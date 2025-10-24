@@ -1,0 +1,31 @@
+.revealWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.visibleImage,
+.hiddenImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.hiddenImage {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.revealWrapper:hover .visibleImage {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.revealWrapper:hover .hiddenImage {
+  transform: translateY(0);
+  opacity: 1;
+}

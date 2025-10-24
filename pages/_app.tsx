@@ -1,6 +1,5 @@
-import 'semantic-ui-css/semantic.min.css'
-import '/styles/fonts.scss'
-import '/styles/styles.scss'
+import '../styles/fonts.scss'
+import '../styles/styles.scss'
 import React from 'react'
 
 function _app({ Component, pageProps }) {

@@ -8,14 +8,15 @@ const nextConfig = {
     PROFILE_PIC_COUNT: '15',
   },
   reactStrictMode: true,
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  turbopack: {},
+  /*webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.externals.push({
       'utf-8-validate': 'commonjs utf-8-validate',
       'bufferutil': 'commonjs bufferutil',
     })
     config.experiments = { asyncWebAssembly: true }
     return config
-  },
+  },*/
   async rewrites() {
     return [
       {
